@@ -1,0 +1,53 @@
+body {
+  color: #fff;
+  font-family: Roboto;
+  background-color: #2b1c3d;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 180px;
+}
+
+a {
+  color: #ff0088;
+}
+
+h1 {
+  text-indent: -999em;
+  width: 509px;
+  height: 58px;
+  background-image: url(logo@2x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 80px;
+  font-weight: 100;
+  font-size: 32px;
+}
+
+.email {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 10px;
+  display: block;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#footer .copyright {
+  font-weight: 300;
+  font-size: 16px;
+}
