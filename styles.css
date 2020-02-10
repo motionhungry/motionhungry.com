@@ -4,15 +4,9 @@ body {
   background-color: #2b1c3d;
 }
 
-#container {
-  width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 180px;
-}
-
 a {
   color: #ff0088;
+  text-decoration: none;
 }
 
 h1 {
@@ -25,18 +19,22 @@ h1 {
   margin: 0 auto;
 }
 
-h2 {
+#container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 180px;
+}
+
+#container .description {
   margin-top: 80px;
   font-weight: 100;
   font-size: 32px;
+  line-height: 42px;
 }
 
-.email {
-  text-decoration: none;
+#container .description .email {
   font-weight: 300;
-  font-size: 32px;
-  margin-top: 10px;
-  display: block;
 }
 
 #footer {
@@ -50,4 +48,25 @@ h2 {
 #footer .copyright {
   font-weight: 300;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    margin-top: 120px;
+  }
+
+  h1 {
+    width: 306px;
+    height: 35px;
+  }
+
+  #container .description {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #footer .copyright {
+    font-size: 12px;
+  }
 }
